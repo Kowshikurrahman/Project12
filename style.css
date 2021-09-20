@@ -35,7 +35,6 @@ img{
   background-color: #f6f9fc;
   padding: 100px 0;
 }
-.pricing-header{}
 .pricing-header h4 {
 	color: #3066ed;
 	margin-bottom: 10px;
@@ -77,12 +76,14 @@ img{
 .singlePriceBox h3 {
   font-size: 1.3rem;
   font-weight: 600;
-  margin-bottom: 25px;
+}
+.singlePriceBox p {
+  margin-bottom: 10px;
 }
 .singlePriceBox h1 {
   font-size: 1.7rem;
   font-weight: 700;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   margin-top: 35px;
 }
 .singlePriceBox ul {
@@ -106,7 +107,6 @@ img{
   padding: 13px 30px;
   font-size: 0.8rem;
   position: relative;
-  overflow: hidden;
   z-index: 1;
 }
 .cmbtn a::after{
@@ -120,6 +120,7 @@ img{
   border-radius: 30px;
   z-index: -1;
   transition: .4s;
+  overflow: hidden;
 }
 .cmbtn a:hover::after{
   width: 100%;
@@ -142,7 +143,6 @@ img{
   width: 20%;
   margin: auto;
 }
-.kisnaCOntent{}
 .kisnaCOntent h6 {
   font-size: .9rem;
 }
@@ -173,7 +173,7 @@ img{
 }
 .but a::after{
   content: "";
-  background-color: #3066ed;
+  background-color: #0048ff;
   width: 0;
   height: 100%;
   position: absolute;
@@ -220,9 +220,14 @@ input {
   border-radius: 30px;
   color: #fff;
   font-weight: 600;
+  transition: .4s;
+}
+.subBtn:hover{
+  background-color: #fff;
+  color: #0048ff;
 }
 .gets{
-  padding: 70px 50px;
+  padding: 50px 50px;
 }
 .gets h4 {
   font-size: 1.2rem;
